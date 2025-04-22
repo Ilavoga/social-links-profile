@@ -46,7 +46,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Ilavoga]((https://ilavoga-social-links-profile.netlify.app/))
+- Website - [Ilavoga](https://ilavoga-social-links-profile.netlify.app/)
 - Frontend Mentor - [@Ilavoga](https://www.frontendmentor.io/profile/Ilavoga)
 - X/Twitter - [@WhosS4ndr4](https://x.com/WhosS4ndr4)
 
