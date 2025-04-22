@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body{
+    font-family: 'Inter';
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    
+}
+
+.container{
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 300px;
+    align-items: center;
+}
+
+.profile-img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 8px auto 20px;
+    display: block;
+}
+
+.profile-name{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.profile-location {
+    color: hsl(75, 94%, 57%); /* Green */
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .profile-desc {
+    color: hsl(0, 0%, 100%); /* White */
+    margin-bottom: 24px;
+    font-weight: 400;
+  }
+
+  .social-links ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .social-links li {
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .social-links li a {
+    color: hsl(0, 0%, 100%); /* White */
+    font-weight: 600;
+    padding: 12px;
+    border-radius: 8px;
+  }
+  
+    .social-links li a:hover{
+        color:hsl(0, 0%, 20%) ;
+    }
+
+.social-links li:hover, 
+.social-links li:focus {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%); 
+}
+
+.attribution {
+    margin-top: 10px;
+    color: hsl(0, 0%, 100%); 
+  }
+  
+  .attribution a {
+    color: hsl(75, 94%, 57%);
+    text-decoration: none;
+  }
+  
+  .attribution a:hover,
+  .attribution a:focus {
+    text-decoration: underline;
+  }
